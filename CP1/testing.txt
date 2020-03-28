@@ -1,0 +1,283 @@
+Enter size: 2
+Enter A by rows:
+5 4
+1 3
+Enter b: 6 -1
+Choose iterative method (Enter 1 for Jacobi, 2 for Gauss-Seidel, 3 for SOR): 1
+Enter maxIter and tolerance: 30 1e-8
+
+Jacobi chosen
+Iter 1, approx. solution: 1.2  -0.333333  , l2-error 0.554652
+Iter 2, approx. solution: 1.46667  -0.733333  , l2-error 0.182114
+Iter 3, approx. solution: 1.78667  -0.822222  , l2-error 0.111945
+Iter 4, approx. solution: 1.85778  -0.928889  , l2-error 0.0416623
+Iter 5, approx. solution: 1.94311  -0.952593  , l2-error 0.0279908
+Iter 6, approx. solution: 1.96207  -0.981037  , l2-error 0.0107043
+Iter 7, approx. solution: 1.98483  -0.987358  , l2-error 0.0073417
+Iter 8, approx. solution: 1.98989  -0.994943  , l2-error 0.00282696
+Iter 9, approx. solution: 1.99595  -0.996629  , l2-error 0.00194925
+Iter 10, approx. solution: 1.9973  -0.998652  , l2-error 0.000751922
+Iter 11, approx. solution: 1.99892  -0.999101  , l2-error 0.000519196
+Iter 12, approx. solution: 1.99928  -0.99964  , l2-error 0.000200375
+Iter 13, approx. solution: 1.99971  -0.99976  , l2-error 0.000138409
+Iter 14, approx. solution: 1.99981  -0.999904  , l2-error 5.34237e-05
+Iter 15, approx. solution: 1.99992  -0.999936  , l2-error 3.69061e-05
+Iter 16, approx. solution: 1.99995  -0.999974  , l2-error 1.42456e-05
+Iter 17, approx. solution: 1.99998  -0.999983  , l2-error 9.84141e-06
+Iter 18, approx. solution: 1.99999  -0.999993  , l2-error 3.79878e-06
+Iter 19, approx. solution: 1.99999  -0.999995  , l2-error 2.62436e-06
+Iter 20, approx. solution: 2  -0.999998  , l2-error 1.01301e-06
+Iter 21, approx. solution: 2  -0.999999  , l2-error 6.99828e-07
+Iter 22, approx. solution: 2  -1  , l2-error 2.70135e-07
+Iter 23, approx. solution: 2  -1  , l2-error 1.86621e-07
+Iter 24, approx. solution: 2  -1  , l2-error 7.20359e-08
+Iter 25, approx. solution: 2  -1  , l2-error 4.97655e-08
+Iter 26, approx. solution: 2  -1  , l2-error 1.92096e-08
+Iter 27, approx. solution: 2  -1  , l2-error 1.32708e-08
+Iter 28, approx. solution: 2  -1  , l2-error 5.12255e-09
+Matrix strictly diagonally dominant: True
+The solution is:
+2  -0.99999999
+The number of iterations is: 28
+The max-norm of residual is: 5.5171336e-08
+The residual is:
+-5.5171336e-08  9.1952226e-09
+
+
+Enter size: 2
+Enter A by rows:
+5 4
+1 3
+Enter b: 6 -1
+Choose iterative method (Enter 1 for Jacobi, 2 for Gauss-Seidel, 3 for SOR): 2
+Enter maxIter and tolerance: 30 1e-8
+
+Gauss-Seidel chosen
+Iter 1, approx. solution: 1.2  -0.733333  , l2-error 0.58443
+Iter 2, approx. solution: 1.78667  -0.928889  , l2-error 0.205196
+Iter 3, approx. solution: 1.94311  -0.981037  , l2-error 0.051911
+Iter 4, approx. solution: 1.98483  -0.994943  , l2-error 0.0136559
+Iter 5, approx. solution: 1.99595  -0.998652  , l2-error 0.00362849
+Iter 6, approx. solution: 1.99892  -0.99964  , l2-error 0.000966671
+Iter 7, approx. solution: 1.99971  -0.999904  , l2-error 0.000257713
+Iter 8, approx. solution: 1.99992  -0.999974  , l2-error 6.87188e-05
+Iter 9, approx. solution: 1.99998  -0.999993  , l2-error 1.83247e-05
+Iter 10, approx. solution: 1.99999  -0.999998  , l2-error 4.88656e-06
+Iter 11, approx. solution: 2  -1  , l2-error 1.30308e-06
+Iter 12, approx. solution: 2  -1  , l2-error 3.47488e-07
+Iter 13, approx. solution: 2  -1  , l2-error 9.26635e-08
+Iter 14, approx. solution: 2  -1  , l2-error 2.47103e-08
+Iter 15, approx. solution: 2  -1  , l2-error 6.5894e-09
+Matrix strictly diagonally dominant: True
+The solution is:
+2  -1
+The number of iterations is: 15
+The max-norm of residual is: 2.6972653e-08
+The residual is:
+-2.6972653e-08  0
+
+
+Enter size: 3
+Enter A by rows:
+3 -1 1
+1 -8 -2
+1 1 5
+Enter b: 2 1 4
+Choose iterative method (Enter 1 for Jacobi, 2 for Gauss-Seidel, 3 for SOR): 1
+Enter maxIter and tolerance: 40 1e-8
+
+Jacobi chosen
+Iter 1, approx. solution: 0.666667  -0.125  0.8  , l2-error 0.511919
+Iter 2, approx. solution: 0.358333  -0.241667  0.691667  , l2-error 0.191127
+Iter 3, approx. solution: 0.355556  -0.253125  0.776667  , l2-error 0.0453825
+Iter 4, approx. solution: 0.323403  -0.274722  0.779514  , l2-error 0.0205758
+Iter 5, approx. solution: 0.315255  -0.279453  0.790264  , l2-error 0.00754118
+Iter 6, approx. solution: 0.310094  -0.283159  0.79284  , l2-error 0.00361353
+Iter 7, approx. solution: 0.308  -0.284448  0.794613  , l2-error 0.00159689
+Iter 8, approx. solution: 0.30698  -0.285153  0.79529  , l2-error 0.000744157
+Iter 9, approx. solution: 0.306519  -0.28545  0.795635  , l2-error 0.000340958
+Iter 10, approx. solution: 0.306305  -0.285594  0.795786  , l2-error 0.000157444
+Iter 11, approx. solution: 0.306207  -0.285658  0.795858  , l2-error 7.2548e-05
+Iter 12, approx. solution: 0.306161  -0.285689  0.79589  , l2-error 3.34469e-05
+Iter 13, approx. solution: 0.30614  -0.285702  0.795905  , l2-error 1.5422e-05
+Iter 14, approx. solution: 0.306131  -0.285709  0.795912  , l2-error 7.10932e-06
+Iter 15, approx. solution: 0.306126  -0.285712  0.795916  , l2-error 3.27797e-06
+Iter 16, approx. solution: 0.306124  -0.285713  0.795917  , l2-error 1.51119e-06
+Iter 17, approx. solution: 0.306123  -0.285714  0.795918  , l2-error 6.96744e-07
+Iter 18, approx. solution: 0.306123  -0.285714  0.795918  , l2-error 3.21221e-07
+Iter 19, approx. solution: 0.306123  -0.285714  0.795918  , l2-error 1.48098e-07
+Iter 20, approx. solution: 0.306123  -0.285714  0.795918  , l2-error 6.82786e-08
+Iter 21, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 3.14793e-08
+Iter 22, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 1.45132e-08
+Iter 23, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 6.69119e-09
+Matrix strictly diagonally dominant: True
+The solution is:
+0.30612246  -0.28571428  0.79591836
+The number of iterations is: 23
+The max-norm of residual is: 2.2178238e-08
+The residual is:
+1.2561286e-08  -2.2178238e-08  -1.5094944e-08
+
+Enter size: 3
+Enter A by rows:
+3 -1 1
+1 -8 -2
+1 1 5
+Enter b: 2 1 4
+Choose iterative method (Enter 1 for Jacobi, 2 for Gauss-Seidel, 3 for SOR): 2
+Enter maxIter and tolerance: 20 1e-8
+
+Gauss-Seidel chosen
+Iter 1, approx. solution: 0.666667  -0.0416667  0.675  , l2-error 0.487083
+Iter 2, approx. solution: 0.427778  -0.240278  0.7625  , l2-error 0.169273
+Iter 3, approx. solution: 0.332407  -0.274074  0.788333  , l2-error 0.0550087
+Iter 4, approx. solution: 0.312531  -0.283017  0.794097  , l2-error 0.0118714
+Iter 5, approx. solution: 0.307629  -0.285071  0.795488  , l2-error 0.00289275
+Iter 6, approx. solution: 0.30648  -0.285562  0.795816  , l2-error 0.000679898
+Iter 7, approx. solution: 0.306207  -0.285678  0.795894  , l2-error 0.000161526
+Iter 8, approx. solution: 0.306143  -0.285706  0.795913  , l2-error 3.82524e-05
+Iter 9, approx. solution: 0.306127  -0.285712  0.795917  , l2-error 9.06748e-06
+Iter 10, approx. solution: 0.306124  -0.285714  0.795918  , l2-error 2.14879e-06
+Iter 11, approx. solution: 0.306123  -0.285714  0.795918  , l2-error 5.09256e-07
+Iter 12, approx. solution: 0.306123  -0.285714  0.795918  , l2-error 1.20689e-07
+Iter 13, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 2.86024e-08
+Iter 14, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 6.77856e-09
+Matrix strictly diagonally dominant: True
+The solution is:
+0.30612245  -0.28571428  0.79591837
+The number of iterations is: 14
+The max-norm of residual is: 8.1462739e-09
+The residual is:
+8.1462739e-09  -6.5347083e-09  -4.4408921e-16
+
+
+
+Enter size: 2
+Enter A by rows:
+5 4
+1 3
+Enter b: 6 -1
+Choose iterative method (Enter 1 for Jacobi, 2 for Gauss-Seidel, 3 for SOR): 3
+Enter maxIter and tolerance: 30 1e-8
+
+SOR chosen
+Enter omega value (0 < omega < 2): 1.1
+Iter 1, approx. solution: 1.32  -0.850667  , l2-error 0.61095
+Iter 2, approx. solution: 1.93659  -0.991682  , l2-error 0.199169
+Iter 3, approx. solution: 1.99902  -1.00047  , l2-error 0.0194877
+Iter 4, approx. solution: 2.00051  -1.00014  , l2-error 0.000472474
+Iter 5, approx. solution: 2.00007  -1.00001  , l2-error 0.000142019
+Iter 6, approx. solution: 2  -1  , l2-error 2.16828e-05
+Iter 7, approx. solution: 2  -1  , l2-error 1.25625e-06
+Iter 8, approx. solution: 2  -1  , l2-error 6.63828e-08
+Iter 9, approx. solution: 2  -1  , l2-error 2.03159e-08
+Iter 10, approx. solution: 2  -1  , l2-error 1.85442e-09
+Matrix strictly diagonally dominant: True
+The solution is:
+2  -1
+The number of iterations is: 10
+The max-norm of residual is: 3.9873882e-10
+The residual is:
+-3.9873882e-10  -2.1160806e-10
+
+
+Enter size: 2
+Enter A by rows:
+5 4
+1 3
+Enter b: 6 -1
+Choose iterative method (Enter 1 for Jacobi, 2 for Gauss-Seidel, 3 for SOR): 3
+Enter maxIter and tolerance: 30 1e-8
+
+SOR chosen
+Enter omega value (0 < omega < 2): 1.2
+Iter 1, approx. solution: 1.44  -0.976  , l2-error 0.634982
+Iter 2, approx. solution: 2.08896  -1.04038  , l2-error 0.195622
+Iter 3, approx. solution: 2.02098  -1.00031  , l2-error 0.0242439
+Iter 4, approx. solution: 1.99611  -0.99838  , l2-error 0.0077187
+Iter 5, approx. solution: 1.99922  -1.00001  , l2-error 0.0010878
+Iter 6, approx. solution: 2.00017  -1.00006  , l2-error 0.000292418
+Iter 7, approx. solution: 2.00003  -0.999998  , l2-error 4.77977e-05
+Iter 8, approx. solution: 1.99999  -0.999997  , l2-error 1.09933e-05
+Iter 9, approx. solution: 2  -1  , l2-error 2.07415e-06
+Iter 10, approx. solution: 2  -1  , l2-error 4.09096e-07
+Iter 11, approx. solution: 2  -1  , l2-error 8.90069e-08
+Iter 12, approx. solution: 2  -1  , l2-error 1.50511e-08
+Iter 13, approx. solution: 2  -1  , l2-error 3.7818e-09
+Matrix strictly diagonally dominant: True
+The solution is:
+2  -1
+The number of iterations is: 13
+The max-norm of residual is: 7.3464248e-09
+The residual is:
+-7.3464248e-09  -2.1145761e-09
+
+
+
+Enter size: 3
+Enter A by rows:
+3 -1 1
+1 -8 -2
+1 1 5
+Enter b: 2 1 4
+Choose iterative method (Enter 1 for Jacobi, 2 for Gauss-Seidel, 3 for SOR): 3
+Enter maxIter and tolerance: 30 1e-8
+
+SOR chosen
+Enter omega value (0 < omega < 2): 1.1
+Iter 1, approx. solution: 0.733333  -0.0366667  0.726733  , l2-error 0.508137
+Iter 2, approx. solution: 0.380087  -0.281423  0.785621  , l2-error 0.226277
+Iter 3, approx. solution: 0.304075  -0.283593  0.796932  , l2-error 0.0404865
+Iter 4, approx. solution: 0.306733  -0.286121  0.795772  , l2-error 0.00202535
+Iter 5, approx. solution: 0.305966  -0.285655  0.795954  , l2-error 0.000482461
+Iter 6, approx. solution: 0.306147  -0.285727  0.795912  , l2-error 0.000104847
+Iter 7, approx. solution: 0.306118  -0.285712  0.79592  , l2-error 1.75581e-05
+Iter 8, approx. solution: 0.306123  -0.285715  0.795918  , l2-error 3.37488e-06
+Iter 9, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 6.32144e-07
+Iter 10, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 1.17353e-07
+Iter 11, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 2.19658e-08
+Iter 12, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 4.10094e-09
+Matrix strictly diagonally dominant: True
+The solution is:
+0.30612245  -0.28571429  0.79591837
+The number of iterations is: 12
+The max-norm of residual is: 5.7631957e-09
+The residual is:
+3.4882235e-09  5.7631957e-09  -7.6422513e-10
+
+
+
+Enter size: 3
+Enter A by rows:
+3 -1 1
+1 -8 -2
+1 1 5
+Enter b: 2 1 4
+Choose iterative method (Enter 1 for Jacobi, 2 for Gauss-Seidel, 3 for SOR): 3
+Enter maxIter and tolerance: 30 1e-8
+
+SOR chosen
+Enter omega value (0 < omega < 2): 1.2
+Iter 1, approx. solution: 0.8  -0.03  0.7752  , l2-error 0.527047
+Iter 2, approx. solution: 0.31792  -0.328872  0.807588  , l2-error 0.294654
+Iter 3, approx. solution: 0.281832  -0.284227  0.799057  , l2-error 0.0306473
+Iter 4, approx. solution: 0.31032  -0.286324  0.794429  , l2-error 0.0152329
+Iter 5, approx. solution: 0.305635  -0.285219  0.796214  , l2-error 0.00270301
+Iter 6, approx. solution: 0.3063  -0.285876  0.795855  , l2-error 0.000527088
+Iter 7, approx. solution: 0.306048  -0.285674  0.795939  , l2-error 0.00017548
+Iter 8, approx. solution: 0.306145  -0.285725  0.795911  , l2-error 5.96443e-05
+Iter 9, approx. solution: 0.306116  -0.285711  0.79592  , l2-error 1.74944e-05
+Iter 10, approx. solution: 0.306124  -0.285715  0.795918  , l2-error 4.91787e-06
+Iter 11, approx. solution: 0.306122  -0.285714  0.795919  , l2-error 1.43871e-06
+Iter 12, approx. solution: 0.306123  -0.285714  0.795918  , l2-error 4.29963e-07
+Iter 13, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 1.27499e-07
+Iter 14, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 3.74955e-08
+Iter 15, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 1.10341e-08
+Iter 16, approx. solution: 0.306122  -0.285714  0.795918  , l2-error 3.256e-09
+Matrix strictly diagonally dominant: True
+The solution is:
+0.30612245  -0.28571429  0.79591837
+The number of iterations is: 16
+The max-norm of residual is: 7.2742763e-09
+The residual is:
+3.8260648e-09  7.2742763e-09  -1.4068116e-09
